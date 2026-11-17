@@ -1,0 +1,19 @@
+# AIPI 510 · Week 13 · Interactive #2 — Semantic Search Engine
+# Pinned to the versions this course's materials are tested against
+# (same pins as aipi510-fall26/requirements.txt). Do not upgrade blindly:
+# chromadb 1.x changed its client API, and grader notebooks assume 0.6.x.
+
+# --- vector store ---
+chromadb==0.6.1
+
+# --- embeddings (pulls torch; no need to pin torch by hand) ---
+sentence-transformers==3.3.0
+
+# chromadb 0.6.x is not numpy-2 ready — keep numpy < 2
+numpy==1.26.4
+
+# --- app framework: pick ONE -------------------------------------------
+# Default track for this project:
+streamlit==1.67.0
+# Alternative track (the starter notebook's code is already Gradio):
+# gradio==5.1.0
