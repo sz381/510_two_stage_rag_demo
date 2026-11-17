@@ -16,6 +16,7 @@ dist/
 *.ipynb_checkpoints
 .env
 .env.*
+!.env.example
 .streamlit/secrets.toml
 *.pem
 *.key
@@ -24,3 +25,4 @@ data/*
 scratch/
 *.log
 *.tmp
+.cache/

@@ -2,3 +2,7 @@ chromadb==0.6.1
 sentence-transformers==3.3.0
 numpy==1.26.4
 streamlit==1.65.0
+openai
+pypdf
+python-dotenv
+requests
