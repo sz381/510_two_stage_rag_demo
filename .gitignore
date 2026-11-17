@@ -1,15 +1,8 @@
-# =============================================================
-# AIPI 510 · Week 13 Interactive #2 — Semantic Search Engine
-# =============================================================
-
-# ---------- macOS / editors ----------
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
 *.swp
-
-# ---------- Python ----------
 .venv/
 venv/
 env/
@@ -19,33 +12,15 @@ __pycache__/
 build/
 dist/
 .pytest_cache/
-
-# ---------- Jupyter ----------
 .ipynb_checkpoints/
 *.ipynb_checkpoints
-
-# ---------- Secrets (never commit) ----------
 .env
 .env.*
 .streamlit/secrets.toml
 *.pem
 *.key
-
-# ---------- Raw data ----------
-# Course rule: do not commit your raw dataset.
 data/*
 !data/.gitkeep
-
-# ---------- Local scratch ----------
 scratch/
 *.log
 *.tmp
-
-# =============================================================
-# Intentionally NOT ignored — these MUST be committed:
-#   chromadb/**            the pre-built vector DB the app queries
-#   chromadb/chroma.sqlite3   documents + embeddings + metadata
-#   README.md requirements.txt app.py
-# Do not add chromadb/ or *.sqlite3 or *.bin here, or the
-# deployed Space will start with an empty index.
-# =============================================================
